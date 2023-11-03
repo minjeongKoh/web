@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+    *{margin: 0;} 
+    .wrap0{ width: 1100px; margin: 84px auto; position: relative; }
+
+    .img1{
+      width: 1100px;
+      animation-name: moving1;
+      animation-duration: 2s;
+      animation-timing-function: ease-out;
+      }
+    .cont2 img{
+      float: left;
+      margin-right: 20px;
+    }
+    .cont3 img{
+      float: right;
+      margin-left: 88px;
+    }
+    .img4{
+      float: right;
+      margin-left: 30px;
+    }
+    .titleText{ 
+        position: absolute;
+        width: 1100px;
+        color: white;
+        text-align: center;
+        font-size: 2.8em;
+        font-weight: bold;
+        left: 50%;
+        transform: translateX(-50%) translateY(-150%);
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 700;
+         }
+    .cont1{
+        font-size: 1.3em;
+        padding: 42px 0px;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 300;
+         }
+   .cont2{
+        float:left;
+        font-size: 1.3em;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 300;
+   }
+    .cont3{
+      float: right;
+      font-size: 1.3em;
+      margin-bottom: 70px;
+      font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 300;
+    }
+    .cont4{
+      float: right;
+    font-size: 1.3em;
+    font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 300;
+
+    }
+    .cap1{
+      font-size: 1em;
+     margin-bottom: 71px;
+     font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 200;
+    }
+   .cap2{
+    float: right;
+    margin: 7px 0px 34px 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 200;
+   }
+   .cap3{
+    float: right;
+    margin: 7px 0px;
+    font-size: 1.5em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+   }
+   .cont2Text{
+   margin-top: 70px;
+   
+   }
+   .cont4Text{
+   margin-top: 70px;
+   }
+
+  
+
+@keyframes moving1{
+  0%{ margin-top: 30%; opacity: 0;}
+  100%{margin-top: 0%; opacity: 1;}
+}
+
